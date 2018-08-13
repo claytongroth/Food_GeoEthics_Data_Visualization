@@ -1,0 +1,165 @@
+    path:hover {
+        stroke: #ffd040 !important;
+        stroke-width: 2px;  
+    }
+
+    rect:hover {
+        stroke: #ffd040 !important;
+        stroke-width: 2px;
+      }
+    path {
+        fill: #848484;
+        stroke: black;
+        stroke-width: .25px;
+      }
+    .graticule {
+        fill: black;
+        stroke: white;
+        stroke-opacity: 1;
+        stroke-width: .5px;
+    }
+    .graticule.outline {
+        opacity: .5;
+        stroke: white !important;
+        stroke-opacity: 1;
+        stroke-width: 2px;
+    }
+
+      div.tooltip {
+        font-family: Consolas,monaco,monospace; 
+          position: absolute;     
+          text-align: center;     
+          width: auto;          
+          height: auto;         
+          padding: 2px;       
+          font: 8px;    
+          background: #fff; 
+          border: 0px;        
+          pointer-events: none; 
+          margin: auto;
+      }
+    .map {
+        border: medium solid #999;
+        margin: 10px 0 0 10px;
+        float: left;
+        background-color: black;
+    }
+    
+    .chartBackground {
+        fill: white;
+    }
+    .chart {
+        background-color: transparent;
+        border: medium solid #999;
+        float: left;
+        margin: 10px 0 0 10px;
+        padding-left: 5;
+    }
+        .chart2 {
+        background-color: transparent;
+        border: medium solid #999;
+        float: left;
+        margin: 10px 0 0 10px;
+        }
+        .chart3 {
+        background-color: transparent;
+        border: medium solid #999;
+        float: left;
+        margin: 10px 0 0 10px;
+        }
+        .chart4 {
+        background-color: transparent;
+        border: medium solid #999;
+        float: left;
+        margin: 10px 0 0 10px;
+        }
+        .sources {
+        background-color: transparent;
+        border: medium solid #999;
+        float: left;
+        margin: 10px 0 0 10px;
+        }
+    .chartTitle {
+        font-family: Consolas,monaco,monospace; 
+        font-size: 1.5em;
+        font-weight: bold;
+        color: white;
+    }
+    .chartSub {
+        font-family: Consolas,monaco,monospace; 
+        font-size: 1em;
+        padding-top: 5px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .axis path, .axis line {
+        fill: none;
+        stroke: #999;
+        stroke-width: .15px;
+        shape-rendering: crispEdges;
+    }
+    .chart4text {
+        font-family: Consolas,monaco,monospace; 
+        font-size: 20;
+        color: white;
+    }
+        .chart4textmodel {
+        font-family: Consolas,monaco,monospace; 
+        font-size: 24;
+        color: #ffd040 !important;
+        
+    }
+    .dropdown {
+    position: relative;
+    top: 3px;
+    left: 10px;
+    font-family: Consolas,monaco,monospace; 
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    padding-bottom: 10px;
+    padding-top: 5px
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+    color: white;
+    background: black;
+    }
+
+    option {
+        font-weight: normal;
+    }
+    .pathLight {
+	stroke: purple;
+    stroke-width: 2px;
+	opacity: 1;
+    }
+    .barLight {
+	fill: #2E2E31;
+    }
+    body{
+        background-color: black;
+    }
+    h1 {
+        font-family: Consolas,monaco,monospace; 
+        color: white;
+        position: center;
+        font-size: 30px;
+    }
+    #toolTitle {
+        color: white;
+        font-family: Consolas,monaco,monospace; 
+        font-size: 20px;
+        display: inline-block;
+
+    }
+    .vis-container{
+        padding: 10px;
+        padding-top: 50px;
+    }
+    .sourceTitle{
+        font-family: Consolas,monaco,monospace; 
+        font-size: 1.5em;
+        font-weight: bold;
+        color: white;
+    }
