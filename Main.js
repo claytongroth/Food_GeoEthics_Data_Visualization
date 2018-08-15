@@ -2,9 +2,9 @@
     
 function setMap(){   
     
-    d3.csv("/data/nu3Food_EmissionsData2.csv").then(function(data) {
-    d3.csv("/data/sums.csv").then(function(data3) {
-    d3.json("/data/a.topojson").then(function(data2) {
+    d3.csv("/Food_GeoEthics_Data_Visualization/nu3Food_EmissionsData2.csv").then(function(data) {
+    d3.csv("/Food_GeoEthics_Data_Visualization/sums.csv").then(function(data3) {
+    d3.json("/Food_GeoEthics_Data_Visualization/a.topojson").then(function(data2) {
         var width = window.innerWidth * 0.425, // 960
             height = 460;
         
